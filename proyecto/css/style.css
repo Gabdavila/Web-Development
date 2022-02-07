@@ -1,0 +1,309 @@
+body {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* background-color: rgb(68, 68, 68); */
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*Utilidades*/
+
+.centrar {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*------------------------*/
+
+.inicio{
+    background-color: rgb(76, 108, 151);
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    font-family: monospace;
+}
+
+.inicio img {
+    height: 100px;
+    width: 100;
+}
+
+.barra-navegacion {
+    background-color: rgb(45, 80, 126);
+}
+
+.barra-navegacion a:hover {
+    color: white;
+    background-color: rgb(76, 108, 151);
+    font-weight: bold;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion img {
+    height: auto;
+    width: auto;
+}
+
+.seccion {
+    display: flex;
+    margin-top: 50px;
+}
+
+.right {
+    flex-basis: 80%;
+    margin-left: 40px;
+    /* background-color: gray;
+    padding: 15px;
+    border-radius: 25px; */
+}
+
+.left {
+    flex-basis: calc(20% - 50px);
+    background-color: rgb(175, 175, 175);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 800px;
+}
+
+.imagen_covid {
+   height: 150px;
+   width: 250px;
+}
+
+.contagio {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.transmision {
+    height: 250px;
+    width: 250px;
+}
+
+/* Entrevistas */
+
+.entrevistas_contenedor {
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entrevistas_imagen img {
+    height: 500px;
+    width: 650px;
+    margin-top: 100px;
+    box-shadow: 10px 10px gray;
+}
+
+.entrevistas_imagen:first-of-type {
+    margin-top: 20px;
+}
+
+.boton {
+    background-color: rgb(76, 108, 151);
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.contenedor_boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor_boton a {
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 5px gray;
+}
+
+.contenedor_boton a:hover {
+    color: black;
+    background-color: rgb(45, 80, 126);
+}
+
+.entrevistas_titulo {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 40px;
+    background-color: rgb(76, 108, 151);
+    box-shadow: 10px 10px gray;
+    padding: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+.cajon_preguntas {
+    margin-top: 45px;
+    background-color: rgb(76, 108, 151);
+    padding: 5px;
+    box-shadow: 5px 5px gray;
+}
+
+.texto_preguntas {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.barra-navegacion-footer {
+    background-color: rgb(45, 80, 126);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+
+}
+
+.barra-navegacion-footer a:hover {
+    color: white;
+    background-color: rgb(76, 108, 151);
+    font-weight: bold;
+}
+
+.footer {
+    margin-bottom: 0;
+    /* position: fixed; */
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+/* -------------------------------- */
+
+.integrantes_contenedor {
+    margin-top: 150px;
+    color: white;
+} 
+
+.texto_integrantes {
+    background-color: rgb(76, 108, 151);
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+    box-shadow: 10px 10px gray;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.texto_carrera {
+    background-color: rgb(76, 108, 151);
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    box-shadow: 10px 10px gray;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.texto_virus {
+    background-color: rgb(76, 108, 151);
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    box-shadow: 10px 10px gray;
+    padding: 15px;
+    font-weight: 600;
+}
+
+/* Variantes */
+
+.titulo_variantes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 40px;
+    background-color: rgb(76, 108, 151);
+    box-shadow: 10px 10px gray;
+    padding: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+.texto_variantes {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(76, 108, 151);
+    box-shadow: 10px 10px gray;
+    padding: 15px;
+    color: white;
+}
+
+.contenedor_variantes {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.imagen_variantes {
+    height: 450px;
+    width: 750px;
+    margin-top: 30px;
+    margin-bottom: 40px,
+}
+
+.contenedor_imagenes_variantes {
+    background-color: rgb(76, 108, 151);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    box-shadow: 10px 10px gray;
+    color: white; 
+    padding: 15px;
+}
+
+.contenedor_imagenes_variantes p {
+    font-size: 30px;
+}
